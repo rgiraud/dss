@@ -1,6 +1,6 @@
 # Deep Spherical Superpixels
 
-### Overview
+## Overview
 
 Implementation of paper:   [PDF]()
 ```
@@ -25,13 +25,13 @@ Implementation of paper:   [PDF]()
 - CUDA (may necessitate to remove nvidia-cuda-toolkit and install cuda-toolkit properly from [here](https://developer.nvidia.com/cuda-toolkit))
 
 
-### Training
+### Use
+#### Training
 ```
 python train.py --root /path/to/PSD
 ```
 
-
-### Inference
+#### Inference
 ```
 python inference --image /path/to/image --weight /path/to/pretrained_weight
 ```
@@ -73,7 +73,9 @@ This code is free to use, share and modify for any non-commercial purposes.
 Any commercial use is strictly prohibited without the authors' consent, also including following works since DSS is based on their code:
 
 Superpixel Sampling Network (SSN) paper: [https://arxiv.org/abs/1807.1017](https://arxiv.org/abs/1807.1017)
+
 Original code: [https://github.com/NVlabs/ssn_superpixels](https://github.com/NVlabs/ssn_superpixels)
+
 Pytorch code: [https://github.com/perrying/ssn-pytorch](https://github.com/perrying/ssn-pytorch)
 
 
