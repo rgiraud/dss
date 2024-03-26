@@ -17,6 +17,7 @@ Implementation of paper:   [PDF]()
 ![image](./Figures/dss_example.png)
 
 <br />
+
 ### Requirements
 
 - PyTorch >= 1.4
@@ -25,6 +26,7 @@ Implementation of paper:   [PDF]()
 - CUDA (may necessitate to remove nvidia-cuda-toolkit and install cuda-toolkit properly from [here](https://developer.nvidia.com/cuda-toolkit))
 
 <br />
+
 ### Use
 #### Training
 ```
@@ -38,6 +40,7 @@ python inference --image /path/to/image --weight /path/to/pretrained_weight
 
 
 <br />
+
 ### Data
 
 The dataset of 75 manually annotated spherical images capturing panoramas is available 
@@ -62,6 +65,7 @@ The Panoramic Semantic Segmentation in the Wild (WildPASS) Dataset is available:
 ```
 
 <br />
+
 ### License
 
 (C) Rémi Giraud, 2024 
