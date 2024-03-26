@@ -12,7 +12,7 @@ class HorizontalCircularPadding(nn.Module):
 
     def forward(self, x):
         x_padded = F.pad(x, (self.padding_width, self.padding_width, 0, 0), mode='circular')
-        x_padded = F.pad(x_padded, (0, 0, self.padding_height, self.padding_height), mode='constant', value=0)
+        x_padded = F.pad(x_padded, (0, 0, self.padding_height, self.padding_height), mode='replicate')
         return x_padded
 
 
