@@ -43,7 +43,7 @@ python inference --image /path/to/image --weight /path/to/pretrained_weight
 
 ### Data
 
-The dataset of 75 manually annotated spherical images capturing panoramas is available 
+The dataset of 75 manually annotated spherical images capturing panoramas is given in PSD.zip file (15Mo) or here:
 [here](https://github.com/tdsuper/SphericalSuperpixels)  
 These images are extracted from the [SUN360 dataset](https://vision.princeton.edu/projects/2012/SUN360/data/) 
 
