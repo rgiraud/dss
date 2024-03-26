@@ -52,6 +52,7 @@ The Panoramic Semantic Segmentation in the Wild (WildPASS) Dataset is available:
 
 
 <br />
+
 ### Use of the GGR regularity metric 
 
 - Generalized Global Regularity Metric (GGR) for evaluation of spatial superpixel regularity in the spherical space:
