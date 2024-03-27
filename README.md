@@ -43,7 +43,7 @@ python inference --image /path/to/image --weight /path/to/pretrained_weight
 
 ### Data
 
-The dataset of 75 manually annotated spherical images capturing panoramas with the used train/val/test splits can be downloaded here:
+The Panorama Segmentation Dataset (PSD) composed of 75 manually annotated spherical images, with the used train/val/test splits can be downloaded here:
 [here](https://remi-giraud.enseirb-matmeca.fr/PSD.zip)
 
 These images are from the [SUN360 dataset](https://vision.princeton.edu/projects/2012/SUN360/data/)  and were manually labeled by [here](https://github.com/tdsuper/SphericalSuperpixels) 
