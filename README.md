@@ -43,13 +43,13 @@ python inference --image /path/to/image --weight /path/to/pretrained_weight
 
 ### Data
 
-The Panorama Segmentation Dataset (PSD) composed of 75 manually annotated spherical images, with the used train/val/test splits can be downloaded here:
-[here](https://remi-giraud.enseirb-matmeca.fr/PSD.zip)
+The Panorama Segmentation Dataset (PSD) composed of 75 manually annotated spherical images, with the used train/val/test splits can be downloaded with this 
+[link](https://remi-giraud.enseirb-matmeca.fr/PSD.zip)
 
 These images are from the [SUN360 dataset](https://vision.princeton.edu/projects/2012/SUN360/data/)  and were manually labeled by [https://github.com/tdsuper/SphericalSuperpixels](https://github.com/tdsuper/SphericalSuperpixels) 
 
-The Panoramic Semantic Segmentation in the Wild (WildPASS) Dataset is available:
-[here](https://github.com/elnino9ykl/WildPASS)
+The Panoramic Semantic Segmentation in the Wild (WildPASS) Dataset is available here:
+[https://github.com/elnino9ykl/WildPASS](https://github.com/elnino9ykl/WildPASS)
 
 
 <br />
